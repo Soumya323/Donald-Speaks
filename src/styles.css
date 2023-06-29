@@ -10,7 +10,7 @@ body {
 
 :root {
   --primary-color: #2192ff;
-  --button-color: #ffea20;
+  --button-color:#ff3db8;
 }
 
 .page-header {
@@ -56,12 +56,13 @@ textarea {
   background-color: var(--button-color);
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 2rem;
   border-style: none;
   margin-bottom: 2rem;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   font-family: "Patrick Hand", cursive;
   font-weight: 600;
+  color: white;
 }
 
 #result-text {
