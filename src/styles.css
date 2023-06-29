@@ -2,6 +2,10 @@
 
 body {
   font-family: "Patrick Hand", cursive;
+  background-image: url('../images/donald-bg.jpg');
+  /* background-color: #f0f0f0; */
+  background-color: #000000; 
+  background-size: cover;
 }
 
 :root {
@@ -11,11 +15,17 @@ body {
 
 .page-header {
   background-color: var(--primary-color);
-  width: 100%;
+  width: 90%;
   margin: auto;
-  height: 5rem;
-  text-align: center;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 1.5rem;
+}
+
+.page-header h1 {
+  font-size: 4rem;
 }
 
 .container {
@@ -73,8 +83,7 @@ textarea {
   border-bottom-right-radius: 1.5rem;
 }
 
-.footer h2 {
-}
+.footer h2 {}
 
 .footer p {
   max-width: 80%;
